@@ -1,7 +1,7 @@
-package model.dto.entity;
+package ir.jm.iranpostcode.model.dto.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import model.dto.AbstractModel;
+import ir.jm.iranpostcode.model.dto.entity.interfaces.AbstractModel;
 
 import java.io.Serializable;
 import javax.persistence.Entity;

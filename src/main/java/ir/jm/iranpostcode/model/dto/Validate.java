@@ -1,4 +1,4 @@
-package model.dto;
+package ir.jm.iranpostcode.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

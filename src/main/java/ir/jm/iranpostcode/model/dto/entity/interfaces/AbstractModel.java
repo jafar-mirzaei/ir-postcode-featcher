@@ -1,5 +1,4 @@
-package model.dto;
-
+package ir.jm.iranpostcode.model.dto.entity.interfaces;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonIgnore;

@@ -1,5 +1,4 @@
-package model.dto.entity.database;
-
+package ir.jm.iranpostcode.model.dto.entity.database;
 
 import java.util.List;
 import java.util.Map;

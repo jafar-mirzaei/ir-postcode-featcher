@@ -1,6 +1,6 @@
-package model.dto.entity;
+package ir.jm.iranpostcode.model.dto.entity;
 
-import model.dto.AbstractModel;
+import ir.jm.iranpostcode.model.dto.entity.interfaces.AbstractModel;
 
 import java.io.Serializable;
 import java.util.Set;
@@ -9,7 +9,6 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.persistence.UniqueConstraint;
 
 /**
  * @author Jafar Mirzaei (jm.csh2009@gmail.com)

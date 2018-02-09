@@ -1,7 +1,7 @@
-package model.dto.entity.impl;
+package ir.jm.iranpostcode.model.dto.entity.impl;
 
-import model.dto.entity.BuildsRes;
-import model.dto.entity.database.RepositoryImpAbstract;
+import ir.jm.iranpostcode.model.dto.entity.BuildsRes;
+import ir.jm.iranpostcode.model.dto.entity.database.RepositoryImpAbstract;
 
 /**
  * @author Jafar Mirzaei (jm.csh2009@gmail.com)

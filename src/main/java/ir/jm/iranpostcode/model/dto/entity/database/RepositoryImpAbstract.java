@@ -1,7 +1,6 @@
-package model.dto.entity.database;
+package ir.jm.iranpostcode.model.dto.entity.database;
 
-
-import model.dto.AbstractModel;
+import ir.jm.iranpostcode.model.dto.entity.interfaces.AbstractModel;
 import org.hibernate.exception.ConstraintViolationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

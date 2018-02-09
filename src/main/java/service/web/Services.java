@@ -1,13 +1,13 @@
 package service.web;
 
 import com.google.gson.Gson;
-import model.dto.entity.AutocompleteRes;
-import model.dto.entity.AvensRes;
-import model.dto.entity.BuildsRes;
-import model.dto.entity.Data;
-import model.dto.entity.Datum;
-import model.dto.entity.PostCodeRes;
-import model.dto.entity.Suggestion;
+import ir.jm.iranpostcode.model.dto.entity.AutocompleteRes;
+import ir.jm.iranpostcode.model.dto.entity.AvensRes;
+import ir.jm.iranpostcode.model.dto.entity.BuildsRes;
+import ir.jm.iranpostcode.model.dto.entity.Data;
+import ir.jm.iranpostcode.model.dto.entity.Datum;
+import ir.jm.iranpostcode.model.dto.entity.PostCodeRes;
+import ir.jm.iranpostcode.model.dto.entity.Suggestion;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -65,8 +65,8 @@ public final class Services {
 
   }
 
-  public AutocompleteRes getAutoComplete(final int houseNum,final String query) throws KeyStoreException, NoSuchAlgorithmException,
-                                                                    KeyManagementException, IOException {
+  public AutocompleteRes getAutoComplete(final int houseNum, final String query) throws KeyStoreException, NoSuchAlgorithmException,
+                                                                                        KeyManagementException, IOException {
 
 
     HttpPost httpPost = new HttpPost(autoCompleteUrl);

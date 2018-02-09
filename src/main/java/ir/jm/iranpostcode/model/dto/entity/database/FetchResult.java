@@ -1,4 +1,4 @@
-package model.dto.entity.database;
+package ir.jm.iranpostcode.model.dto.entity.database;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

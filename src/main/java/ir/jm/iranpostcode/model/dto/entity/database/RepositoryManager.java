@@ -1,23 +1,21 @@
-package model.dto.entity.database;
+package ir.jm.iranpostcode.model.dto.entity.database;
 
-
-
-import model.dto.entity.AutocompleteRes;
-import model.dto.entity.AvensRes;
-import model.dto.entity.BuildsRes;
-import model.dto.entity.Data;
-import model.dto.entity.Datum;
-import model.dto.entity.PostCodeRes;
-import model.dto.entity.Query;
-import model.dto.entity.Suggestion;
-import model.dto.entity.impl.AutocompleteResRepositoryImpl;
-import model.dto.entity.impl.AvensResRepositoryImpl;
-import model.dto.entity.impl.BuildsResRepositoryImpl;
-import model.dto.entity.impl.DataRepositoryImpl;
-import model.dto.entity.impl.DatumRepositoryImpl;
-import model.dto.entity.impl.PostCodeResRepositoryImpl;
-import model.dto.entity.impl.QueryRepositoryImpl;
-import model.dto.entity.impl.SuggestionRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.AutocompleteRes;
+import ir.jm.iranpostcode.model.dto.entity.AvensRes;
+import ir.jm.iranpostcode.model.dto.entity.BuildsRes;
+import ir.jm.iranpostcode.model.dto.entity.Data;
+import ir.jm.iranpostcode.model.dto.entity.Datum;
+import ir.jm.iranpostcode.model.dto.entity.PostCodeRes;
+import ir.jm.iranpostcode.model.dto.entity.Query;
+import ir.jm.iranpostcode.model.dto.entity.Suggestion;
+import ir.jm.iranpostcode.model.dto.entity.impl.AutocompleteResRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.AvensResRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.BuildsResRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.DataRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.DatumRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.PostCodeResRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.QueryRepositoryImpl;
+import ir.jm.iranpostcode.model.dto.entity.impl.SuggestionRepositoryImpl;
 
 import java.util.HashMap;
 import java.util.Map;
